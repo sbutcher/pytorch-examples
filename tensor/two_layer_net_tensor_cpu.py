@@ -16,6 +16,7 @@ a PyTorch Tensor can run on either CPU or GPU. To run operations on the GPU,
 just pass a different value to the `device` argument when constructing the
 Tensor.
 """
+print("Using PyTorch",torch.__version__)
 
 device = torch.device('cpu')
 # device = torch.device('cuda') # Uncomment this to run on GPU
